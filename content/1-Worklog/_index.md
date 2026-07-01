@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-**On this page**, you will need to introduce your worklog. **How** did you complete it? How many weeks did you take to complete the program? **What** did you do in those weeks?
-
-This internship was completed over **12 weeks** and includes two phases:
+This internship was completed over **12 weeks** (17/04/2026 — 10/07/2026) and includes two phases:
 - **Weeks 1-10:** Foundation AWS labs covering Free Tier, billing, support, IAM, VPC, EC2, Cloud9, S3, and RDS.
 - **Weeks 11-12:** Graduation project on **AWS + Minecraft + Cyber Security**, including architecture design, deployment, GuardDuty monitoring, Lambda automation, Backup, NLB, Global Accelerator, and cleanup.
 

@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 10"
-date: 2024-01-01
+date: 2026-06-19
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
@@ -16,11 +16,11 @@ pre: " <b> 1.10. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2 | - Tìm hiểu RDS: engine, instance class, storage<br>- Hiểu DB subnet group và high availability | 11/08/2025 | 11/08/2025 | Tài liệu AWS RDS |
-| 3 | - Tạo VPC và security group cho RDS<br>- Tạo DB subnet group<br>- Giới hạn truy cập database | 12/08/2025 | 12/08/2025 | Tài liệu AWS networking |
-| 4 | - Launch RDS instance<br>- Cấu hình parameter group và backup retention<br>- Test kết nối từ EC2 | 13/08/2025 | 13/08/2025 | AWS RDS console |
-| 5 | - Deploy ứng dụng kết nối RDS<br>- Kiểm tra thao tác đọc và ghi | 14/08/2025 | 15/08/2025 | AWS application tutorials |
-| 6 | - Thực hành backup và restore<br>- Ghi chú cleanup cho DB instance và snapshot | 15/08/2025 | 15/08/2025 | Tài liệu AWS backup |
+| 2 | - Tìm hiểu RDS: engine, instance class, storage<br>- Hiểu DB subnet group và high availability | 19/06/2026 | 19/06/2026 | Tài liệu AWS RDS |
+| 3 | - Tạo VPC và security group cho RDS<br>- Tạo DB subnet group<br>- Giới hạn truy cập database | 20/06/2026 | 20/06/2026 | Tài liệu AWS networking |
+| 4 | - Launch RDS instance<br>- Cấu hình parameter group và backup retention<br>- Test kết nối từ EC2 | 21/06/2026 | 21/06/2026 | AWS RDS console |
+| 5 | - Deploy ứng dụng kết nối RDS<br>- Kiểm tra thao tác đọc và ghi | 22/06/2026 | 23/06/2026 | AWS application tutorials |
+| 6 | - Thực hành backup và restore<br>- Ghi chú cleanup cho DB instance và snapshot | 23/06/2026 | 23/06/2026 | Tài liệu AWS backup |
 
 ### Kết quả đạt được tuần 10:
 

@@ -1,6 +1,6 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
+date: 2026-05-08
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
@@ -16,11 +16,11 @@ pre: " <b> 1.4. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | ---------- | --------------- | ----------------------------------------- |
-| 2 | - Review IAM concepts: users, groups, roles, policies<br>- Study managed policy vs inline policy | 08/11/2025 | 08/11/2025 | AWS IAM documentation |
-| 3 | - Create an admin group<br>- Attach appropriate policies<br>- Create an admin user | 08/12/2025 | 08/12/2025 | AWS IAM console |
-| 4 | - Log in using the new admin user<br>- Verify console and CLI access | 08/13/2025 | 08/13/2025 | AWS sign-in page |
-| 5 | - Create an operations user<br>- Create a role-switching policy<br>- Test role assumption | 08/14/2025 | 08/15/2025 | AWS IAM roles guide |
-| 6 | - Review unused users and permissions<br>- Document IAM cleanup steps | 08/15/2025 | 08/15/2025 | AWS IAM best practices |
+| 2 | - Review IAM concepts: users, groups, roles, policies<br>- Study managed policy vs inline policy | 08/05/2026 | 08/05/2026 | AWS IAM documentation |
+| 3 | - Create an admin group<br>- Attach appropriate policies<br>- Create an admin user | 09/05/2026 | 09/05/2026 | AWS IAM console |
+| 4 | - Log in using the new admin user<br>- Verify console and CLI access | 10/05/2026 | 10/05/2026 | AWS sign-in page |
+| 5 | - Create an operations user<br>- Create a role-switching policy<br>- Test role assumption | 11/05/2026 | 12/05/2026 | AWS IAM roles guide |
+| 6 | - Review unused users and permissions<br>- Document IAM cleanup steps | 12/05/2026 | 12/05/2026 | AWS IAM best practices |
 
 ### Week 4 Achievements
 
@@ -28,4 +28,3 @@ pre: " <b> 1.4. </b> "
 * Applied least-privilege policies for each identity.
 * Practiced switching roles and verifying access boundaries.
 * Documented an IAM governance checklist.
-* ...

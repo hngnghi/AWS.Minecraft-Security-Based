@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 11"
-date: 2024-01-01
+date: 2026-06-26
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
@@ -16,11 +16,11 @@ pre: " <b> 1.11. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2 | - Xác định chi phí dự kiến<br>- Vẽ sơ đồ kiến trúc<br>- Liệt kê dịch vụ AWS cần dùng | 11/08/2025 | 11/08/2025 | Architecture design notes |
-| 3 | - Tạo VPC `Minecraft-Security-Lab`<br>- Tạo subnet và route table<br>- Tạo SG chỉ mở port 25565 | 12/08/2025 | 12/08/2025 | Tài liệu AWS VPC |
-| 4 | - Launch EC2 Ubuntu<br>- Cài Minecraft server qua Session Manager<br>- Chạy Minecraft bằng user `minecraft` | 13/08/2025 | 13/08/2025 | AWS Systems Manager docs |
-| 5 | - Bật GuardDuty<br>- Xem findings, settings và logic cảnh báo<br>- Ghi nhận hành vi cần tự động chặn | 14/08/2025 | 15/08/2025 | Hướng dẫn AWS GuardDuty |
-| 6 | - Tạo Lambda `Minecraft-Automated-Block-IP`<br>- Cấp quyền EC2<br>- Tạo EventBridge rule nối GuardDuty sang Lambda | 15/08/2025 | 15/08/2025 | Tài liệu AWS Lambda và EventBridge |
+| 2 | - Xác định chi phí dự kiến<br>- Vẽ sơ đồ kiến trúc<br>- Liệt kê dịch vụ AWS cần dùng | 26/06/2026 | 26/06/2026 | Architecture design notes |
+| 3 | - Tạo VPC `Minecraft-Security-Lab`<br>- Tạo subnet và route table<br>- Tạo SG chỉ mở port 25565 | 27/06/2026 | 27/06/2026 | Tài liệu AWS VPC |
+| 4 | - Launch EC2 Ubuntu<br>- Cài Minecraft server qua Session Manager<br>- Chạy Minecraft bằng user `minecraft` | 28/06/2026 | 28/06/2026 | AWS Systems Manager docs |
+| 5 | - Bật GuardDuty<br>- Xem findings, settings và logic cảnh báo<br>- Ghi nhận hành vi cần tự động chặn | 29/06/2026 | 30/06/2026 | Hướng dẫn AWS GuardDuty |
+| 6 | - Tạo Lambda `Minecraft-Automated-Block-IP`<br>- Cấp quyền EC2<br>- Tạo EventBridge rule nối GuardDuty sang Lambda | 30/06/2026 | 30/06/2026 | Tài liệu AWS Lambda và EventBridge |
 
 ### Kết quả đạt được tuần 11:
 
@@ -29,4 +29,3 @@ pre: " <b> 1.11. </b> "
 * Bật GuardDuty và nối với Lambda để chuẩn bị tự động hóa phản ứng.
 * Tạo backup plan hàng giờ cho EC2.
 * Mở khả năng truy cập qua Global Accelerator.
-* ...

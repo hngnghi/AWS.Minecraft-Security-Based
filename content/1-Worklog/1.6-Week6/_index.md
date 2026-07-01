@@ -1,6 +1,6 @@
 ---
 title: "Week 6 Worklog"
-date: 2024-01-01
+date: 2026-05-22
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
@@ -16,11 +16,11 @@ pre: " <b> 1.6. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | ---------- | --------------- | ----------------------------------------- |
-| 2 | - Review EC2 instance types and selection criteria<br>- Study EBS volume types and use cases | 08/11/2025 | 08/11/2025 | AWS EC2 documentation |
-| 3 | - Launch a Linux EC2 instance<br>- Launch a Windows EC2 instance<br>- Compare bootstrap options | 08/12/2025 | 08/12/2025 | AWS EC2 console |
-| 4 | - Modify instance type<br>- Create an EBS snapshot<br>- Create a custom AMI | 08/13/2025 | 08/13/2025 | AWS EC2 lifecycle docs |
-| 5 | - Practice recovering access for Linux and Windows<br>- Configure RDP access recovery<br>- Review EBS Archive | 08/14/2025 | 08/15/2025 | AWS recovery guides |
-| 6 | - Deploy a LAMP server on Amazon Linux<br>- Deploy a Node.js application<br>- Review IAM-based EC2 cost governance controls | 08/15/2025 | 08/15/2025 | AWS deployment tutorials |
+| 2 | - Review EC2 instance types and selection criteria<br>- Study EBS volume types and use cases | 22/05/2026 | 22/05/2026 | AWS EC2 documentation |
+| 3 | - Launch a Linux EC2 instance<br>- Launch a Windows EC2 instance<br>- Compare bootstrap options | 23/05/2026 | 23/05/2026 | AWS EC2 console |
+| 4 | - Modify instance type<br>- Create an EBS snapshot<br>- Create a custom AMI | 24/05/2026 | 24/05/2026 | AWS EC2 lifecycle docs |
+| 5 | - Practice recovering access for Linux and Windows<br>- Configure RDP access recovery<br>- Review EBS Archive | 25/05/2026 | 26/05/2026 | AWS recovery guides |
+| 6 | - Deploy a LAMP server on Amazon Linux<br>- Deploy a Node.js application<br>- Review IAM-based EC2 cost governance controls | 26/05/2026 | 26/05/2026 | AWS deployment tutorials |
 
 ### Week 6 Achievements
 
@@ -29,4 +29,3 @@ pre: " <b> 1.6. </b> "
 * Practiced instance type changes and access recovery procedures.
 * Deployed web applications on Linux instances.
 * Understood IAM policies that control instance families, types, and storage usage.
-* ...

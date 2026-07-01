@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-**Trong trang này** bạn sẽ giới thiệu worklog của mình: **bạn đã hoàn thành chương trình trong bao nhiêu tuần** và **từng tuần đã làm gì**.
-
-Chương trình thực tập này được thực hiện trong **12 tuần**, chia thành 2 giai đoạn:
+Chương trình thực tập này được thực hiện trong **12 tuần** (17/04/2026 — 10/07/2026), chia thành 2 giai đoạn:
 - **Tuần 1-10:** Hoàn thành các lab AWS nền tảng về Free Tier, chi phí, support, IAM, VPC, EC2, Cloud9, S3 và RDS.
 - **Tuần 11-12:** Thực hiện dự án tốt nghiệp **AWS + Minecraft + Cyber Security**, bao gồm thiết kế kiến trúc, triển khai, giám sát GuardDuty, tự động hóa Lambda, Backup, NLB, Global Accelerator và dọn dẹp tài nguyên.
 

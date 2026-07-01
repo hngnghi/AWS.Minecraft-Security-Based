@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 9"
-date: 2024-01-01
+date: 2026-06-12
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
@@ -16,11 +16,11 @@ pre: " <b> 1.9. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2 | - Tìm hiểu static website hosting trên S3<br>- Hiểu public access block và ACL | 11/08/2025 | 11/08/2025 | Tài liệu AWS S3 |
-| 3 | - Tạo bucket S3 cho static website<br>- Upload file website<br>- Bật website endpoint | 12/08/2025 | 12/08/2025 | AWS S3 console |
-| 4 | - Cấu hình public access và bucket policy cẩn trọng<br>- Kiểm tra website endpoint | 13/08/2025 | 13/08/2025 | AWS security best practices |
-| 5 | - Tạo CloudFront distribution<br>- Đặt bucket S3 làm origin<br>- Cấu hình cache behavior và root object | 14/08/2025 | 15/08/2025 | Hướng dẫn AWS CloudFront |
-| 6 | - Bật versioning cho bucket<br>- Cấu hình replication đa region<br>- Ghi chú cleanup | 15/08/2025 | 15/08/2025 | Tài liệu AWS S3 replication |
+| 2 | - Tìm hiểu static website hosting trên S3<br>- Hiểu public access block và ACL | 12/06/2026 | 12/06/2026 | Tài liệu AWS S3 |
+| 3 | - Tạo bucket S3 cho static website<br>- Upload file website<br>- Bật website endpoint | 13/06/2026 | 13/06/2026 | AWS S3 console |
+| 4 | - Cấu hình public access và bucket policy cẩn trọng<br>- Kiểm tra website endpoint | 14/06/2026 | 14/06/2026 | AWS security best practices |
+| 5 | - Tạo CloudFront distribution<br>- Đặt bucket S3 làm origin<br>- Cấu hình cache behavior và root object | 15/06/2026 | 16/06/2026 | Hướng dẫn AWS CloudFront |
+| 6 | - Bật versioning cho bucket<br>- Cấu hình replication đa region<br>- Ghi chú cleanup | 16/06/2026 | 16/06/2026 | Tài liệu AWS S3 replication |
 
 ### Kết quả đạt được tuần 9:
 
@@ -29,4 +29,3 @@ pre: " <b> 1.9. </b> "
 * Tăng tốc truy cập bằng CloudFront kết hợp S3 origin.
 * Bật versioning và cấu hình replication để tăng độ bền dữ liệu.
 * Ghi nhận các bước dọn dẹp bucket và distribution.
-* ...
