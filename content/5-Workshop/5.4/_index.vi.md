@@ -36,6 +36,78 @@ Khi **Amazon GuardDuty** phát hiện IP tấn công/quét port máy chủ, **Am
 
 5. Quay lại tab **Code** của Lambda, thay toàn bộ code bằng script Python từ Colab. Bấm **Deploy**.
 
+```python
+import boto3
+import json
+import logging
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+ec2 = boto3.client('ec2')
+
+def lambda_handler(event, context):
+    try:
+        # 1. Bóc tách log từ GuardDuty gửi sang để tìm IP kẻ tấn công
+        detail = event.get('detail', {})
+        finding_type = detail.get('type', 'Unknown Threat')
+
+        connection_details = detail.get('service', {}).get('action', {}).get('networkConnectionAction', {})
+        attacker_ip = connection_details.get('remoteIpDetails', {}).get('ipAddressV4')
+
+        if not attacker_ip:
+            logger.info("Không tìm thấy IP tấn công hợp lệ trong bản ghi này (Bản ghi có thể không liên quan đến Network).")
+            return {'statusCode': 200, 'body': 'No attacker IP found.'}
+
+        logger.info(f"🚨 PHÁT HIỆN CUỘC TẤN CÔNG: '{finding_type}' từ IP: {attacker_ip}")
+
+        # 2. Tìm ID của Network ACL (Tường lửa tầng mạng của VPC)
+        network_acls = ec2.describe_network_acls()
+        target_nacl_id = network_acls['NetworkAcls'][0]['NetworkAclId']
+
+        # Đặt số thứ tự cho luật chặn (Rule Number).
+        # Trong NACL, số càng nhỏ càng ưu tiên tối cao. Số 50 sẽ đứng trước các luật mặc định (thường là 100).
+        rule_number = 50
+
+        # 3. Tạo một luật "DENY" (Chặn đứng) ngay lập tức tại cửa ngõ VPC
+        ec2.create_network_acl_entry(
+            NetworkAclId=target_nacl_id,
+            RuleNumber=rule_number,
+            Protocol='-1', # Chặn toàn bộ các giao thức (TCP, UDP, ICMP...)
+            RuleAction='deny', # Hành động: Từ chối / Chặn hoàn toàn
+            Egress=False, # Áp dụng cho chiều dữ liệu đi VÀO (Inbound)
+            CidrBlock=f"{attacker_ip}/32" # Chặn chính xác duy nhất IP này
+        )
+
+        logger.info(f"🛡️ SOAR ACTION SUCCESS: Đã tự động tạo luật BLOCK IP {attacker_ip} tại Network ACL ({target_nacl_id}). Kẻ tấn công đã bị cô lập hoàn toàn!")
+
+        return {
+            'statusCode': 200,
+            'body': json.dumps(f"Successfully blocked {attacker_ip}")
+        }
+
+    except Exception as e:
+        # Nếu rule_number 50 đã tồn tại (đã chặn 1 IP trước đó), ta sẽ bắt lỗi và ghi đè/tăng số rule lên để tránh lỗi trùng lặp khi demo
+        if "NetworkAclEntryAlreadyExists" in str(e):
+            logger.info(f"IP {attacker_ip} đã nằm trong danh sách chặn hoặc Rule ID bị trùng. Đang cập nhật lại...")
+            try:
+                ec2.replace_network_acl_entry(
+                    NetworkAclId=target_nacl_id,
+                    RuleNumber=rule_number,
+                    Protocol='-1',
+                    RuleAction='deny',
+                    Egress=False,
+                    CidrBlock=f"{attacker_ip}/32"
+                )
+                logger.info(f"🛡️ Đã cập nhật đè Rule chặn thành công cho IP: {attacker_ip}")
+                return {'statusCode': 200, 'body': 'Updated block rule.'}
+            except Exception as re:
+                logger.error(f"Lỗi khi cố gắng thay thế Entry: {str(re)}")
+
+        logger.error(f"❌ Lỗi thực thi hệ thống SOAR: {str(e)}")
+        return {'statusCode': 500, 'body': json.dumps("Internal Error")}
+```
+
 ![Code đã deploy](/images/5-Workshop/5.4/4.h.LBD.png)
 
 > **Lưu ý:** PDF tham chiếu một notebook Colab cho code Lambda. Ở dòng số 11, thay thế placeholder ARN bằng ARN thực tế của SNS topic ở phần 5.7.
