@@ -1,6 +1,6 @@
-baseURL = "https://peterhovng.github.io/fcj-workshop-minecraft-securitybase/"
-relativeURLs = true
-canonifyURLs = true
+baseURL = "https://workshop-sample.awsfcaj.com/"
+relativeURLs = false
+canonifyURLs = false
 defaultContentLanguage = "en"
 
 # Change the default theme to be use when building the site with Hugo
