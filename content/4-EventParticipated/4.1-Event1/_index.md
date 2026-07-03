@@ -13,7 +13,7 @@ pre: " <b> 4.1. </b> "
 | **Event Name** | Mini Meetup – First Cloud AI Journey \| 06/06/2026 |
 | **Date & Time** | 09:00 AM, June 6, 2026 |
 | **Venue** | 26th Floor, Bitexco Financial Tower, 02 Hai Trieu Street, Sai Gon Ward, Ho Chi Minh City, Vietnam |
-| **Role** | Speaker |
+| **Role** | Attendee |
 
 ---
 
@@ -21,7 +21,7 @@ pre: " <b> 4.1. </b> "
 
 The AWS Meetup was organized to provide a platform for networking, knowledge sharing, and exchanging practical experience among members of the Cloud Computing community. The event brought together speakers from different technical backgrounds, covering topics such as application development, system administration, cybersecurity, DevOps, artificial intelligence, and cloud technologies on AWS.
 
-The meetup not only enabled participants to stay updated with the latest technologies but also fostered collaboration, encouraged technical discussions, and expanded professional networks within the AWS ecosystem.
+For attendees, the meetup not only enabled us to stay updated with the latest technologies and learn from industry experts' real-world experiences but also fostered collaboration, encouraged technical discussions, and expanded professional networks within the AWS ecosystem.
 
 ---
 
@@ -31,7 +31,7 @@ The meetup not only enabled participants to stay updated with the latest technol
 |-----|----------|-------|
 | 1 | Nguyen Quoc Bao | Multiplayer in the Cloud: Connecting Godot Clients with AWS WebSockets |
 | 2 | Bao Huynh | Docker - A Containerization Technology |
-| 3 | **Le Hoang Gia Dai** | Combining AWS WAF with Machine Learning for Cyber Attack Detection on AWS |
+| 3 | Lê Hoàng Gia Đại | Combining AWS WAF with Machine Learning for Cyber Attack Detection on AWS |
 | 4 | Vinh Tran | From IT Helpdesk to Senior Sysadmin: A Self-Learning Journey and Roadmap to Cloud/DevOps |
 | 5 | Viet Phat | AWS Neptune for Building a Graph Knowledge Base for GraphRAG |
 | 6 | Truong Phuoc | Effective Team Collaboration |
@@ -51,28 +51,25 @@ The main topics included:
 - Building a Graph Knowledge Base for GraphRAG using Amazon Neptune.
 - Best practices for improving teamwork and collaboration in software development projects.
 
-Besides the presentations, participants had the opportunity to ask questions, engage in technical discussions, and exchange practical experiences with speakers and other attendees.
+Besides the presentations, participants (including myself) had the opportunity to ask questions, engage in technical discussions, and clear up doubts regarding real-world system deployments with the speakers.
 
 ---
 
-# 4. My Contribution as a Speaker
+# 4. Key Takeaways from My Favorite Session
 
-During the meetup, I participated as a **Speaker** and presented the topic:
+Among all the insightful presentations at the event, I was particularly impressed by the topic: **"Combining AWS WAF with Machine Learning for Cyber Attack Detection on AWS"** by speaker Le Hoang Gia Dai.
 
-> **Combining AWS WAF with Machine Learning for Cyber Attack Detection on AWS**
+The session offered a highly practical perspective on designing an intelligent security solution that combines AWS services with Machine Learning techniques to detect and mitigate cyber attacks targeting web applications.
 
-My presentation focused on designing an intelligent security solution that combines AWS services with Machine Learning techniques to detect and mitigate cyber attacks targeting web applications.
+## Main Knowledge Acquired from This Session:
 
-## Main Topics Covered
+- Gained a deeper understanding of sophisticated, common cyber attacks targeting modern web applications.
+- Learned how AWS WAF filters, analyzes, and protects web traffic at the application layer.
+- Discovered optimal workflows for collecting, processing, and analyzing AWS WAF log data.
+- Learned how Machine Learning models can be applied to detect anomalous behaviors and identify advanced threats that traditional WAF rules might miss.
+- Understood the concrete cloud architecture required to deploy this solution on AWS, along with its pros, cons, and scalability considerations in production environments.
 
-- An overview of common cyber attacks against web applications.
-- The role of AWS WAF in filtering and protecting web traffic.
-- Collecting and analyzing AWS WAF logs.
-- Applying Machine Learning models to detect anomalous behavior and identify cyber threats.
-- Designing the overall AWS architecture for the proposed solution.
-- Advantages, limitations, and scalability considerations of the system in real-world environments.
-
-Through this presentation, I had the opportunity to share my experience in developing cloud security solutions while receiving valuable feedback and insights from fellow speakers and participants.
+Through this session, I had the valuable opportunity to interact and ask the speaker specific technical questions, helping me better understand the intersection of Cyber Security and AI/ML on the cloud platform.
 
 ---
 
@@ -80,12 +77,12 @@ Through this presentation, I had the opportunity to share my experience in devel
 
 By attending the presentations and technical discussions, I gained valuable knowledge in the following areas:
 
-- Developing multiplayer systems on AWS.
-- The importance of Docker in modern software development workflows.
-- Using Amazon Neptune to build graph databases for GraphRAG applications.
-- Career development strategies in Cloud Computing and DevOps.
-- Best practices for teamwork and collaboration in technology projects.
-- Improving technical presentation and communication skills through community engagement.
+- Developing and optimizing multiplayer systems on AWS.
+- The vital role of Docker in modern software development, packaging, and deployment workflows.
+- Using Amazon Neptune to build graph databases tailored for next-generation GraphRAG systems.
+- Clear, practical career roadmaps and strategies for self-learning to transition into Cloud and DevOps roles.
+- Best practices for communication and management to enhance teamwork and collaboration in technology projects.
+- Learning how experienced professionals structure and deliver complex technical concepts in an engaging and accessible manner.
 
 ---
 
@@ -93,34 +90,27 @@ By attending the presentations and technical discussions, I gained valuable know
 
 The knowledge acquired during the meetup can be applied to:
 
-- Designing modern cloud-native architectures.
-- Deploying applications using Docker containers.
-- Implementing security solutions with AWS WAF.
-- Applying Machine Learning to cybersecurity monitoring and threat detection.
-- Building graph databases for Artificial Intelligence and Retrieval-Augmented Generation (RAG) systems.
-- Enhancing teamwork and knowledge sharing within software engineering projects.
+- Aligning future academic and personal projects with modern, well-architected cloud principles.
+- Implementing and packaging personal applications using Docker containers to optimize development efficiency.
+- Conducting further research on configuring AWS WAF security solutions and exploring AI/ML integration for security monitoring.
+- Studying graph databases more deeply to support future AI and Retrieval-Augmented Generation (RAG) tasks.
+- Enhancing teamwork, coordination, and knowledge-sharing mindsets within engineering groups at school or work.
 
 ---
 
 # 7. Event Experience
 
 ## Learning from Industry Speakers
+Each presentation was rooted in real-world business challenges and deployment experience, helping me understand the "why" and "when" behind choosing specific AWS services rather than just memorizing theoretical concepts.
 
-Each presentation was based on real-world implementation experience, enabling participants to better understand how AWS services are applied to solve practical business and technical challenges.
-
-## Experience as a Speaker
-
-Presenting at the meetup allowed me to:
-
-- Strengthen my technical expertise.
-- Improve my public speaking and presentation skills.
-- Enhance my ability to answer technical questions.
-- Gain valuable insights from experienced professionals and the AWS community.
+## Experience as an Active Listener
+Participating in Q&A sessions and listening to technical debates among experts and the audience helped me:
+- Expand my problem-solving mindset.
+- Evaluate a technology from multiple business perspectives (cost, performance, security).
+- Formulate precise, tech-focused questions.
 
 ## Exposure to Modern Technologies
-
-The meetup introduced and discussed a variety of modern technologies, including:
-
+The meetup served as a bridge to rapidly connect me with today's hottest tech keywords:
 - AWS WAF
 - Amazon Neptune
 - AWS WebSocket API
@@ -130,28 +120,22 @@ The meetup introduced and discussed a variety of modern technologies, including:
 - Cloud Architecture
 - DevOps
 
-These sessions demonstrated how different technologies can be integrated to build scalable, secure, and efficient cloud solutions.
-
 ## Community Networking
-
-The meetup also provided valuable networking opportunities by allowing participants to:
-
-- Connect with AWS experts and fellow speakers.
-- Exchange experiences from real-world projects.
-- Expand professional relationships within the AWS and Cloud Computing community.
-- Learn about emerging technologies and industry best practices.
+The event provided excellent networking opportunities, allowing me to:
+- Connect directly with senior engineers and like-minded peers.
+- Discuss common technical bugs, mistakes, and challenges faced during project deployment.
+- Immerse myself in the sharing culture of the AWS and Cloud Computing community in Vietnam.
 
 ---
 
 # 8. Lessons Learned
 
-After participating in the event, I drew several important conclusions:
+After participating in the event, I drew several important conclusions for my personal growth:
 
-- Strong theoretical knowledge should always be accompanied by practical implementation experience.
-- Sharing knowledge not only benefits the community but also strengthens one's own understanding.
-- AWS provides a powerful ecosystem of services that can be integrated with Artificial Intelligence to build intelligent cybersecurity solutions.
-- Actively engaging with the technology community is one of the best ways to stay current with industry trends and continuously improve technical expertise.
-- Regular participation in technical meetups and conferences contributes significantly to professional growth, communication skills, public speaking abilities, and teamwork.
+- Strong theoretical knowledge must always be tested and validated through practical implementation experience.
+- Continuous self-learning and staying updated with tech trends are critical; the speaker's roadmap from Helpdesk to Sysadmin/DevOps was a massive inspiration regarding consistency and perseverance.
+- Cloud ecosystems like AWS are vast, and combining their out-of-the-box services with AI can produce smarter, groundbreaking solutions.
+- Actively engaging with tech communities and attending meetups is the fastest way to learn from others' mistakes, thereby boosting both hard and soft skills (communication, systems thinking).
 
 ---
 
@@ -171,4 +155,4 @@ After participating in the event, I drew several important conclusions:
 
 # Conclusion
 
-The AWS Meetup was a valuable technical event that provided practical insights into AWS, Cloud Computing, DevOps, Artificial Intelligence, and Cybersecurity. As a speaker, I had the opportunity not only to share my own experience but also to learn from industry professionals and community members. The event significantly enhanced my technical knowledge, presentation skills, and professional network within the cloud computing community.
+The AWS Meetup was a highly valuable technical event that provided practical insights into AWS, Cloud Computing, DevOps, Artificial Intelligence, and Cybersecurity. As an attendee, I not only added new pieces to my technical knowledge puzzle but also felt deeply inspired by the professional journeys of the speakers. This meaningful experience has given me great motivation to continue upgrading my expertise and expanding my network within the cloud computing community.

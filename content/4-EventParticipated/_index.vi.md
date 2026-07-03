@@ -26,7 +26,7 @@ Trong quá trình thực tập, em đã có cơ hội tham gia ba sự kiện li
 
 &emsp;**Địa điểm:** Tầng 26, Tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, Thành phố Hồ Chí Minh  
 
-&emsp;**Vai trò:** Diễn giả (Speaker)  
+&emsp;**Vai trò:** Người tham dự 
 
 ---
 
