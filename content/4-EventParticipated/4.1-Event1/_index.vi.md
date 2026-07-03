@@ -13,7 +13,7 @@ pre: " <b> 4.1. </b> "
 | **Tên sự kiện** | Mini Meetup – First Cloud AI Journey \| 06/06/2026 |
 | **Thời gian** | 09:00, ngày 06/06/2026 |
 | **Địa điểm** | Tầng 26, Tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, Thành phố Hồ Chí Minh |
-| **Vai trò** | Diễn giả |
+| **Vai trò** | Người tham dự |
 
 ---
 
@@ -21,7 +21,7 @@ pre: " <b> 4.1. </b> "
 
 AWS Meetup được tổ chức nhằm tạo môi trường giao lưu, chia sẻ kiến thức và kinh nghiệm thực tế giữa các thành viên trong cộng đồng yêu thích điện toán đám mây (Cloud Computing). Chương trình quy tụ các diễn giả đến từ nhiều lĩnh vực khác nhau, mang đến các chủ đề về phát triển ứng dụng, quản trị hệ thống, bảo mật, DevOps, trí tuệ nhân tạo và các công nghệ hiện đại trên nền tảng AWS.
 
-Đây không chỉ là cơ hội để người tham dự cập nhật các xu hướng công nghệ mới mà còn giúp kết nối cộng đồng, trao đổi kinh nghiệm thực tế và mở rộng mạng lưới chuyên môn.
+Đối với người tham dự, đây không chỉ là cơ hội để cập nhật các xu hướng công nghệ mới, lắng nghe những bài học xương máu từ các chuyên gia mà còn giúp kết nối cộng đồng, trao đổi kinh nghiệm thực tế và mở rộng mạng lưới chuyên môn.
 
 ---
 
@@ -31,7 +31,7 @@ AWS Meetup được tổ chức nhằm tạo môi trường giao lưu, chia sẻ
 |-----|----------|---------|
 | 1 | Nguyễn Quốc Bảo | Multiplayer in the Cloud: Connecting Godot Clients with AWS WebSockets |
 | 2 | Bảo Huỳnh | Docker - A Containerization Technology |
-| 3 | **Lê Hoàng Gia Đại** | Combining AWS WAF with Machine Learning for Cyber Attack Detection on AWS |
+| 3 | Lê Hoàng Gia Đại | Combining AWS WAF with Machine Learning for Cyber Attack Detection on AWS |
 | 4 | Vinh Trần | Từ IT Helpdesk lên Senior Sysadmin: Hành trình tự học và Lộ trình dịch chuyển sang Cloud/DevOps |
 | 5 | Việt Phát | AWS Neptune for Building a Graph Knowledge Base for GraphRAG |
 | 6 | Trương Phước | Cách làm việc nhóm hiệu quả |
@@ -51,76 +51,66 @@ Các chủ đề nổi bật bao gồm:
 - Xây dựng Graph Knowledge Base phục vụ GraphRAG bằng Amazon Neptune.
 - Các phương pháp nâng cao hiệu quả làm việc nhóm trong môi trường công nghệ.
 
-Bên cạnh phần trình bày của các diễn giả, người tham dự còn có cơ hội đặt câu hỏi, trao đổi trực tiếp và chia sẻ kinh nghiệm triển khai các hệ thống thực tế.
+Bên cạnh phần trình bày của các diễn giả, người tham dự (trong đó có em) đã có cơ hội đặt câu hỏi, thảo luận trực tiếp và được các anh giải đáp những vướng mắc khi triển khai các hệ thống thực tế.
 
 ---
 
-# 4. Nội dung tham gia với vai trò diễn giả
+# 4. Nội dung tâm đắc nhất từ các bài chia sẻ
 
-Trong sự kiện, em tham gia với vai trò **Speaker** và trình bày chủ đề:
+Trong số các bài trình bày tại sự kiện, em đặc biệt ấn tượng và chú ý đến chủ đề: **"Combining AWS WAF with Machine Learning for Cyber Attack Detection on AWS"** của diễn giả Lê Hoàng Gia Đại. 
 
-> **Combining AWS WAF with Machine Learning for Cyber Attack Detection on AWS**
+Bài chia sẻ đã mang đến một góc nhìn rất thực tế về việc xây dựng một giải pháp phát hiện và giảm thiểu các cuộc tấn công mạng bằng cách kết hợp các dịch vụ AWS với mô hình Machine Learning.
 
-Bài trình bày tập trung vào việc xây dựng một giải pháp phát hiện và giảm thiểu các cuộc tấn công mạng bằng cách kết hợp các dịch vụ AWS với mô hình Machine Learning.
+## Các nội dung chính thu nhận được từ chủ đề này:
 
-## Nội dung chính
+- Hiểu rõ hơn về các hình thức tấn công phổ biến, tinh vi đối với ứng dụng Web hiện nay.
+- Cách vận hành của AWS WAF trong việc lọc, phân tích và bảo vệ lưu lượng truy cập ở tầng ứng dụng.
+- Quy trình thu thập, xử lý và phân tích dữ liệu log từ AWS WAF một cách tối ưu.
+- Cách ứng dụng Machine Learning để nhận diện các hành vi bất thường, phát hiện các cuộc tấn công mà các rule thông thường của WAF có thể bỏ sót.
+- Mô hình kiến trúc thực tế để triển khai giải pháp này trên hạ tầng AWS, cùng với những ưu điểm, hạn chế cần lưu ý khi đưa vào môi trường production.
 
-- Tổng quan về các hình thức tấn công phổ biến đối với ứng dụng Web.
-- Vai trò của AWS WAF trong việc lọc và bảo vệ lưu lượng truy cập.
-- Thu thập và phân tích log từ AWS WAF.
-- Ứng dụng Machine Learning để phát hiện các hành vi bất thường và nhận diện tấn công.
-- Kiến trúc triển khai giải pháp trên AWS.
-- Những ưu điểm, hạn chế và khả năng mở rộng của hệ thống trong môi trường thực tế.
-
-Thông qua phần chia sẻ, em có cơ hội trao đổi với cộng đồng về kinh nghiệm triển khai các giải pháp bảo mật trên AWS, đồng thời tiếp nhận nhiều ý kiến đóng góp hữu ích từ các diễn giả và người tham dự.
+Thông qua phần chia sẻ này, em đã có cơ hội giao lưu, đặt câu hỏi cho diễn giả để hiểu sâu hơn về sự giao thoa giữa Bảo mật (Cyber Security) và Trí tuệ nhân tạo (AI/ML) trên nền tảng đám mây.
 
 ---
 
 # 5. Những gì học được
 
-Thông qua các bài trình bày tại sự kiện, em học được:
+Thông qua các bài trình bày tại sự kiện, em đã tích lũy được rất nhiều kiến thức bổ ích:
 
-- Kiến thức về xây dựng hệ thống Multiplayer trên nền tảng AWS.
-- Vai trò của Docker trong quy trình phát triển phần mềm hiện đại.
-- Cách ứng dụng Graph Database bằng Amazon Neptune cho các hệ thống GraphRAG.
-- Kinh nghiệm phát triển nghề nghiệp trong lĩnh vực Cloud và DevOps.
-- Các phương pháp nâng cao hiệu quả làm việc nhóm trong các dự án công nghệ.
-- Kỹ năng trình bày, trao đổi chuyên môn và chia sẻ kinh nghiệm với cộng đồng kỹ thuật.
+- Kiến thức về cách thiết lập và tối ưu hệ thống Multiplayer trên nền tảng AWS.
+- Tầm quan trọng và cách áp dụng Docker trong quy trình phát triển, đóng gói phần mềm hiện đại.
+- Cách ứng dụng Graph Database bằng Amazon Neptune để tối ưu hóa cho các hệ thống GraphRAG (AI thế hệ mới).
+- Lộ trình rõ ràng, thực tế để phát triển nghề nghiệp, tự học từ những vị trí cơ bản lên Cloud và DevOps.
+- Các phương pháp quản trị, giao tiếp để nâng cao hiệu quả làm việc nhóm trong các dự án công nghệ.
+- Quan sát và học hỏi được kỹ năng trình bày, cách truyền đạt vấn đề kỹ thuật phức tạp một cách dễ hiểu từ các diễn giả đi trước.
 
 ---
 
-# 6. Ứng dụng vào công việc
+# 6. Ứng dụng vào công việc và học tập
 
-Những kiến thức thu nhận được từ sự kiện có thể áp dụng vào:
+Những kiến thức thực tế thu nhận được từ sự kiện có thể áp dụng vào:
 
-- Thiết kế và xây dựng hệ thống Cloud theo kiến trúc hiện đại.
-- Triển khai ứng dụng bằng Docker.
-- Thiết kế giải pháp bảo mật với AWS WAF.
-- Ứng dụng Machine Learning trong giám sát và phát hiện tấn công mạng.
-- Xây dựng Graph Database phục vụ AI và Retrieval-Augmented Generation (RAG).
-- Nâng cao kỹ năng làm việc nhóm và chia sẻ kiến thức trong các dự án thực tế.
+- Định hướng thiết kế và xây dựng hệ thống Cloud theo các tiêu chuẩn kiến trúc hiện đại (Well-Architected).
+- Thực hành triển khai, đóng gói ứng dụng cá nhân bằng Docker để tối ưu hiệu suất.
+- Nghiên cứu sâu hơn về cấu hình giải pháp bảo mật với AWS WAF và thử nghiệm tích hợp AI/ML trong giám sát an toàn thông tin.
+- Tìm hiểu thêm về Graph Database để phục vụ cho các bài toán AI và Retrieval-Augmented Generation (RAG) sau này.
+- Cải thiện tư duy làm việc nhóm, biết cách phối hợp và chia sẻ kiến thức tốt hơn trong các dự án thực tế tại trường học/công ty.
 
 ---
 
 # 7. Trải nghiệm trong sự kiện
 
 ## Học hỏi từ các diễn giả
+Các bài chia sẻ đều xuất phát từ kinh nghiệm thực chiến và các bài toán thực tế của doanh nghiệp, giúp em hiểu rõ hơn "tại sao và khi nào" nên ứng dụng các dịch vụ AWS chứ không chỉ dừng lại ở lý thuyết sách vở.
 
-Các bài chia sẻ đều xuất phát từ kinh nghiệm triển khai thực tế, giúp người tham dự hiểu rõ hơn cách ứng dụng các dịch vụ AWS vào từng bài toán cụ thể.
-
-## Trải nghiệm với vai trò diễn giả
-
-Việc trực tiếp trình bày trước cộng đồng giúp em:
-
-- Củng cố kiến thức chuyên môn.
-- Rèn luyện kỹ năng thuyết trình.
-- Nâng cao khả năng trả lời các câu hỏi kỹ thuật.
-- Tiếp nhận nhiều góc nhìn mới từ các chuyên gia và cộng đồng.
+## Trải nghiệm ở góc độ người lắng nghe
+Việc tham gia đặt câu hỏi và lắng nghe phần phản biện giữa các chuyên gia tại hội thảo giúp em:
+- Mở rộng tư duy giải quyết vấn đề (Problem-solving).
+- Nhìn nhận một công nghệ dưới nhiều góc độ (chi phí, hiệu năng, bảo mật).
+- Biết cách đặt câu hỏi tập trung vào trọng tâm kỹ thuật.
 
 ## Tiếp cận công nghệ hiện đại
-
-Sự kiện giới thiệu và thảo luận về nhiều công nghệ hiện đại như:
-
+Sự kiện là cầu nối giúp em tiếp cận nhanh chóng với các từ khóa công nghệ "nóng" nhất hiện nay như:
 - AWS WAF
 - Amazon Neptune
 - AWS WebSocket API
@@ -130,28 +120,22 @@ Sự kiện giới thiệu và thảo luận về nhiều công nghệ hiện đ
 - Cloud Architecture
 - DevOps
 
-Qua đó, em hiểu rõ hơn cách kết hợp nhiều công nghệ để xây dựng các hệ thống có khả năng mở rộng, bảo mật và hiệu quả.
-
 ## Kết nối cộng đồng
-
-AWS Meetup là cơ hội để:
-
-- Giao lưu với các chuyên gia và diễn giả.
-- Trao đổi kinh nghiệm triển khai dự án thực tế.
-- Mở rộng mối quan hệ trong cộng đồng AWS và Cloud Computing.
-- Học hỏi các xu hướng công nghệ mới.
+AWS Meetup là không gian tuyệt vời để:
+- Giao lưu, kết nối trực tiếp với các đàn anh đi trước và các bạn có cùng đam mê.
+- Trao đổi về những khó khăn, lỗi hay gặp khi làm dự án thực tế.
+- Hòa mình vào văn hóa chia sẻ (Sharing culture) của cộng đồng AWS và Cloud Computing tại Việt Nam.
 
 ---
 
 # 8. Bài học rút ra
 
-Sau khi tham gia sự kiện, em rút ra một số bài học quan trọng:
+Sau khi tham dự sự kiện, em rút ra một số bài học quan trọng cho bản thân:
 
-- Kiến thức lý thuyết cần đi đôi với kinh nghiệm triển khai thực tế.
-- Việc chia sẻ kiến thức không chỉ giúp cộng đồng phát triển mà còn giúp người chia sẻ củng cố và hệ thống hóa kiến thức của bản thân.
-- AWS cung cấp hệ sinh thái dịch vụ mạnh mẽ có thể kết hợp với AI để xây dựng các giải pháp bảo mật thông minh.
-- Tham gia cộng đồng công nghệ là cách hiệu quả để cập nhật xu hướng mới và mở rộng kiến thức chuyên môn.
-- Việc thường xuyên tham gia các Meetup và hội thảo chuyên môn góp phần nâng cao kỹ năng kỹ thuật, kỹ năng giao tiếp, thuyết trình và làm việc nhóm.
+- Kiến thức lý thuyết trên trường hay tài liệu cần phải được cọ xát và kiểm chứng qua kinh nghiệm triển khai thực tế.
+- Tự học và chủ động cập nhật xu hướng là yếu tố sống còn trong ngành công nghệ; lộ trình từ Helpdesk lên Sysadmin/DevOps của diễn giả là một minh chứng lớn cho sự kiên trì.
+- Hệ sinh thái đám mây (như AWS) rất rộng lớn, việc kết hợp nhuần nhuyễn các dịch vụ sẵn có với AI sẽ tạo ra những giải pháp đột phá và thông minh hơn.
+- Tham gia các cộng đồng công nghệ, đi nghe Meetup thường xuyên là cách ngắn nhất để học hỏi từ sai lầm của người khác, từ đó nâng cao cả kỹ năng cứng lẫn kỹ năng mềm (giao tiếp, tư duy hệ thống).
 
 ---
 
@@ -171,4 +155,4 @@ Sau khi tham gia sự kiện, em rút ra một số bài học quan trọng:
 
 ## Kết luận
 
-AWS Meetup là một sự kiện chuyên môn có giá trị, mang lại nhiều kiến thức thực tiễn về các công nghệ AWS, Cloud Computing, DevOps, AI và Cyber Security. Với vai trò là một diễn giả, em không chỉ có cơ hội chia sẻ kinh nghiệm của bản thân mà còn học hỏi được nhiều kiến thức bổ ích từ các chuyên gia và cộng đồng. Đây là một trải nghiệm ý nghĩa, góp phần nâng cao chuyên môn, kỹ năng trình bày cũng như mở rộng mạng lưới kết nối trong lĩnh vực công nghệ.
+AWS Meetup là một sự kiện chuyên môn cực kỳ giá trị, mang lại nhiều kiến thức thực tiễn về các công nghệ AWS, Cloud Computing, DevOps, AI và Cyber Security. Với vai trò là một người tham dự, em không chỉ tích lũy thêm được nhiều mảnh ghép kiến thức mới cho bản thân mà còn được truyền cảm hứng mạnh mẽ từ hành trình phát triển của các diễn giả. Đây là một trải nghiệm ý nghĩa, tạo động lực lớn để em tiếp tục nâng cao chuyên môn và mở rộng mạng lưới kết nối trong lĩnh vực công nghệ.
