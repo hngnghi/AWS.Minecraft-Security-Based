@@ -9,7 +9,7 @@ chapter: false
 ### Thông tin sinh viên:
 &emsp; **Họ và tên:** Lê Hồng Nghi
 
-&emsp; **Số điện thoại:** 081411788
+&emsp; **Số điện thoại:** 0819411788
 
 &emsp; **Email:** lhnghi071204@gmail.com
 
