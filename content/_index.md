@@ -7,11 +7,11 @@ chapter: false
 
 # Internship Report
 ### Student Information:
-&emsp; **Full Name:** Le Hoang Gia Dai
+&emsp; **Full Name:** Le Hong Nghi
 
-&emsp; **Phone Number:** 0865537586
+&emsp; **Phone Number:** 0819411788
 
-&emsp; **Email:** leehoanggiadai@gmail.com
+&emsp; **Email:** lhnghi071204@gmail.com
 
 &emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
 

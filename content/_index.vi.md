@@ -7,11 +7,11 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Lê Hoàng Gia Đại
+&emsp; **Họ và tên:** Lê Hồng Nghi
 
-&emsp; **Số điện thoại:** 0865537586
+&emsp; **Số điện thoại:** 081411788
 
-&emsp; **Email:** leehoanggiadai@gmail.com
+&emsp; **Email:** lhnghi071204@gmail.com
 
 &emsp; **Trường:** Đại học Công nghệ Thành phố Hồ Chí Minh (HUTECH)
 
