@@ -1,29 +1,30 @@
 ---
 title: "Internship Report"
-date: 2024-01-01
+date: 2026-04-20
 weight: 1
 chapter: false
 ---
 
-# Internship Report
+# INTERNSHIP RESULT REPORT
+
+---
+
 ### Student Information:
-&emsp; **Full Name:** Le Hong Nghi
+* **Full Name:** Le Hong Nghi
+* **Contact Email:** lhnghi071204@gmail.com
+* **Phone Number:** 0819411788
 
-&emsp; **Phone Number:** 0819411788
+### Educational Institution:
+* **University:** Ho Chi Minh City University of Technology (HUTECH)
+* **Major:** Information Technology
+* **Class Code:** 22DTHG3
 
-&emsp; **Email:** lhnghi071204@gmail.com
+### Internship Program Information:
+* **Receiving Company:** Bootcamp First Cloud AI Journey
+* **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
+* **Internship Period:** 20/04/2026 — 12/07/2026
 
-&emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
-
-&emsp; **Major:** Information Technology
-
-&emsp; **Class:** 22DTHG3
-
-&emsp; **Internship Company:** Bootcamp First Cloud AI Journey
-
-&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
-
-&emsp; **Internship Duration:** From 20/04/2026 to 12/07/2026
+---
 
 ![Your profile picture](/images/avatar.png)
 

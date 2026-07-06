@@ -9,12 +9,12 @@ chapter: false
 
 ---
 
-### 👤 Thông tin nhân sự:
+### Thông tin Sinh viên:
 * **Họ và tên:** Lê Hồng Nghi
 * **Email liên hệ:** lhnghi071204@gmail.com
 * **Số điện thoại:** 0819411788
 
-### 🏫 Đơn vị đào tạo:
+### Đơn vị đào tạo:
 * **Trường:** Đại học Công nghệ Thành phố Hồ Chí Minh (HUTECH)
 * **Chuyên ngành:** Công nghệ thông tin
 * **Mã lớp:** 22DTHG3
