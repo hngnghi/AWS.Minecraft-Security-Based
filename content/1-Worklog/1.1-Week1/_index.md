@@ -1,30 +1,37 @@
 ---
-title: "Week 1 Worklog"
+title: "Worklog Week 1"
 date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-### Week 1 Objectives
+### Week 1 Objectives:
+* Master the AWS Free Tier policies, the $200 credit promotional program, and successfully complete the account registration process.
+* Proactively establish a cost control and protection strategy for the account starting from day one.
+* Document personal lessons learned regarding common misconfigurations that can lead to credit depletion or unexpected charges.
 
-* Understand the AWS Free Tier 2025 offering and how the $200 credit campaign works.
-* Build an initial cost-avoidance strategy for the remaining internship.
-* Document personal learning notes and reflect on common credit-burning mistakes.
+### Planned Tasks & Actual Progress:
 
-### Tasks to be carried out this week:
+| Day | Planned Task | Start Date | Completion Date | Tools & Documentation | Actual Results Achieved |
+| :---: | :--- | :---: | :---: | :--- | :--- |
+| **Mon** | - Explore the Free Tier package and its key updates<br>- Compare free tier vs. paid services<br>- Identify common mistakes that cause credit loss | 17/04/2026 | 17/04/2026 | AWS Free Tier Documentation, AWS Support | - Explored and oriented with the AWS service ecosystem.<br>- Clearly distinguished among the three types of offers: Always-free, 12-month free, and short-term trials.<br>- Successfully completed the “Explore AWS” program directly on the AWS Console Home interface. |
+| **Tue** | - Create an AWS account<br>- Enable Multi-Factor Authentication (MFA)<br>- Document best practices for securing the root account | 18/04/2026 | 18/04/2026 | AWS Beginner Guide, AWS IAM | - Successfully registered a personal AWS account.<br>- Mastered the access management workflow and the principle of Least Privilege.<br>- Hand-on practice: Successfully assigned IAM Roles to an EC2 instance instead of using hardcoded access keys. |
+| **Wed** | - List 5 milestone tasks to claim the full $200 credit<br>- Track task completion progress<br>- Establish a cost protection checklist | 19/04/2026 | 19/04/2026 | AWS Promotions Page, S3, DynamoDB | - Deployed foundational infrastructure: initialized an Amazon VPC virtual network and launched an Amazon EC2 virtual server.<br>- Configured an S3 Bucket, set up Public Read permissions, and successfully hosted a static website.<br>- Built a basic NoSQL database utilizing Amazon DynamoDB. |
+| **Thu** | - Identify behaviors that could trigger credit suspension<br>- Learn how to enable cost alerts | 20/04/2026 | 21/04/2026 | AWS Billing Documentation, AWS Budgets | - Successfully configured the AWS Budgets tool to manage and control hands-on lab expenses.<br>- Set up automated budget alert thresholds to alleviate worries about forgetting to terminate resources. |
+| **Fri** | - Research architecture patterns optimized for a $200 budget<br>- Understand cost monitoring and optimization concepts<br>- Review FAQs and chart the upcoming learning roadmap | 21/04/2026 | 21/04/2026 | Well-Architected Framework, AWS Cloud9, CLI | - Initialized and fully configured an AWS Cloud9 online development environment (Cloud IDE) via the browser.<br>- Attained proficiency in using the AWS CLI tool to interact with and inspect the resource status of S3 and DynamoDB. |
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | --- | ---------- | --------------- | ----------------------------------------- |
-| 2 | - Study AWS Free Tier 2025 updates<br>- Review the difference between Free Tier and paid usage<br>- Identify credit-renewal and renewal-error risks | 17/04/2026 | 17/04/2026 | AWS Free Tier documentation |
-| 3 | - Create an AWS account<br>- Enable Multi-Factor Authentication<br>- Review account root best practices | 18/04/2026 | 18/04/2026 | AWS getting-started guides |
-| 4 | - List five tasks required to earn the full $200 credit<br>- Record earned credits and remaining tasks<br>- Prepare a cost-safety checklist | 19/04/2026 | 19/04/2026 | AWS promotions page |
-| 5 | - Identify behaviors that risk account credit suspension<br>- Review usage alerts and cost-recommendation settings | 20/04/2026 | 21/04/2026 | AWS billing documentation |
-| 6 | - Study architecture blueprints for a $200 credit environment<br>- Learn about monitoring and cost optimization basics<br>- Review FAQ and next-step roadmap | 21/04/2026 | 21/04/2026 | AWS Well-Architected Framework |
+---
 
-### Week 1 Achievements
+### Core Achievements of the Week:
 
-* Completed AWS account setup with basic billing protections.
-* Understood the difference between always-free, 12-month free, and short-term trial offers.
-* Documented a personal checklist for protecting Free Tier and credit eligibility.
-* Learned core terminology: budget, usage report, billing alarm, and service quota.
+* **Financial Management & Account Security:** Established an account protection guardrail using **AWS Budgets** and configured automated threshold alerts sent via Email. Gained a clear understanding of and distinguished among core administrative terms: *budget, usage report, billing alarm, and service quota*.
+* **Foundational Cloud Infrastructure Deployment:** Successfully initialized an **EC2** virtual machine inside an **Amazon VPC** network subsystem, clarifying the structural differences between traditional on-premises servers and Cloud deployment models (IaaS, PaaS).
+* **Storage & Databases:** Configured and operated **Amazon S3** object storage to handle static web hosting. Created tables and executed foundational data interaction actions (CRUD) on the NoSQL database engine **Amazon DynamoDB**.
+* **Security & Automation:** Developed proficiency in leveraging the **AWS Cloud9** workspace combined with the **AWS CLI** to manage cloud resources via the command line. Maintained rigorous compliance with security standards via **AWS IAM** by attaching secure roles to EC2 instances, eliminating credential leak risks.
+
+---
+
+### Challenges & Lessons Learned:
+* **The Challenge:** Transitioning to the NoSQL paradigm in DynamoDB—with its unique *Partition Key / Sort Key* structural mechanics—proved highly unfamiliar and contrasted sharply with the traditional relational database design and normalization patterns taught in university courses.
+* **The Solution:** Conceptualized and mapped cloud services to familiar real-world comparisons (viewing EC2 as a personal virtual computer and S3 acting like Google Drive) to accelerate learning. Dedicated additional time to studying DynamoDB data modeling use cases to master data storage layouts optimized primarily around specific Query Patterns rather than multi-table joins.

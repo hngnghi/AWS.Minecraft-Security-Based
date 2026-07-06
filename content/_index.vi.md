@@ -1,29 +1,30 @@
 ---
 title: "Báo cáo thực tập"
-date: 2024-01-01
+date: 2026-04-20
 weight: 1
 chapter: false
 ---
 
-# Báo cáo thực tập
-### Thông tin sinh viên:
-&emsp; **Họ và tên:** Lê Hồng Nghi
+# BÁO CÁO KẾT QUẢ THỰC TẬP
 
-&emsp; **Số điện thoại:** 0819411788
+---
 
-&emsp; **Email:** lhnghi071204@gmail.com
+### 👤 Thông tin nhân sự:
+* **Họ và tên:** Lê Hồng Nghi
+* **Email liên hệ:** lhnghi071204@gmail.com
+* **Số điện thoại:** 0819411788
 
-&emsp; **Trường:** Đại học Công nghệ Thành phố Hồ Chí Minh (HUTECH)
+### 🏫 Đơn vị đào tạo:
+* **Trường:** Đại học Công nghệ Thành phố Hồ Chí Minh (HUTECH)
+* **Chuyên ngành:** Công nghệ thông tin
+* **Mã lớp:** 22DTHG3
 
-&emsp; **Ngành:** Công nghệ thông tin
+### Thông tin chương trình thực tập:
+* **Công ty tiếp nhận:** Bootcamp First Cloud AI Journey
+* **Vị trí Thực tập:** Workforce Bootcamp - First Cloud AI Journey
+* **Thời gian Thực tập:** 20/04/2026 — 12/07/2026
 
-&emsp; **Lớp:** 22DTHG3
-
-&emsp; **Công ty thực tập:** Bootcamp First Cloud AI Journey
-
-&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
-
-&emsp; **Thời gian thực tập:** Từ ngày 20/04/2026 đến ngày 12/07/2026
+---
 
 ![Ảnh đại diện của bạn](/images/avatar.png)
 

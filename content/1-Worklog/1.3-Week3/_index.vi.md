@@ -7,24 +7,28 @@ pre: " <b> 1.3. </b> "
 ---
 
 ### Mục tiêu tuần 3:
+* Nắm quy trình quản lý AWS Support case và phân loại mức độ nghiêm trọng.
+* Thực hành triển khai dữ liệu đám mây với Amazon RDS và container với Amazon Lightsail.
 
-* Tìm hiểu các gói hỗ trợ AWS và cách mở support case.
-* Học cách mô tả vấn đề, chọn mức độ nghiêm trọng và theo dõi case.
-* Xác định khi nào dùng tài liệu, AWS Health hoặc support chính thức.
+### Công việc & Tiến độ:
 
-### Các công việc cần triển khai trong tuần này:
+| Thứ | Công việc | Ngày chạy | Công cụ | Kết quả đạt được |
+| :---: | :--- | :---: | :--- | :--- |
+| **2** | So sánh gói AWS Support & nghiên cứu RDS. | 04/05/2026 | AWS Docs, Amazon RDS | Phân biệt Developer/Business/Enterprise. Hiểu cơ chế sao lưu tự động và Multi-AZ của RDS. |
+| **3** | Học phân loại mức độ lỗi & tạo RDS Instance. | 05/05/2026 | Support Center, RDS, Security Group | Khởi tạo thành công RDS MySQL/SQL Server; mở cấu hình Security Group để kết nối từ máy cục bộ. |
+| **4** | Mở một support case mẫu & nghiên cứu Lightsail. | 06/05/2026 | Support Console, Lightsail | Tạo thành công case mẫu đúng chuẩn. Triển khai nhanh máy chủ ảo Lightsail bằng template có sẵn. |
+| **5** | Theo dõi, đóng case mẫu & học khái niệm Container. | 07/05/2026 | Support Console, Docker | Học thêm về vòng đời xử lý case. Nắm rõ ưu điểm gọn nhẹ của Container so với máy ảo. |
+| **6** | Tổng hợp best practices & chạy ứng dụng Container. | 08/05/2026 | Lightsail Containers, Billing | Đóng gói và chạy thành công ứng dụng Container hóa public lên Lightsail; kiểm soát ví tiền an toàn. |
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2 | - Tìm hiểu các gói AWS Support<br>- So sánh Developer, Business và Enterprise<br>- Ghi nhận trường hợp phù hợp từng gói | 01/05/2026 | 01/05/2026 | Tài liệu AWS Support |
-| 3 | - Tìm hiểu cách truy cập Support Center<br>- Ôn các loại case và mức severity | 02/05/2026 | 02/05/2026 | AWS console |
-| 4 | - Mở một support case mẫu<br>- Mô tả rõ vấn đề, dịch vụ và mức độ ưu tiên | 03/05/2026 | 03/05/2026 | AWS Support Center |
-| 5 | - Theo dõi case đang mở<br>- Thực hành phản hồi và đóng case | 04/05/2026 | 05/05/2026 | AWS Support console |
-| 6 | - Tổng hợp best practices khi dùng support<br>- Ghi chú khi dùng AWS Health, docs hoặc forum | 05/05/2026 | 05/05/2026 | AWS support guides |
+---
 
-### Kết quả đạt được tuần 3:
+### Kết quả cốt lõi:
+* Làm chủ luồng mở, phản hồi, đóng support case và theo dõi hệ thống qua AWS Health.
+* Triển khai thành công **Amazon RDS**, nắm vững tư duy vận hành High Availability (Multi-AZ).
+* Đóng gói ứng dụng dạng **Docker Container** và chạy trực tiếp trên môi trường **Lightsail Containers**.
 
-* Phân biệt được các gói AWS Support và chọn gói phù hợp theo tình huống học tập.
-* Thực hành mở và quản lý support case.
-* Nắm cách chọn severity và mô tả vấn đề rõ ràng hơn.
-* Xây dựng checklist sử dụng support hợp lý.
+---
+
+### Khó khăn & Bài học:
+* Gặp lỗi *Connection Timeout* khi kết nối từ bên ngoài vào cơ sở dữ liệu Amazon RDS.
+* Cấu hình chính xác luật Inbound (mở port 3306/1433) trên **VPC Security Group** và giới hạn IP truy cập.

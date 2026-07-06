@@ -1,54 +1,49 @@
 ---
-title: "Self-Assessment"
-date: 2024-01-01
+title: "Self-Evaluation"
+date: 2026-07-07
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Throughout my internship at **Bootcamp First Cloud AI Journey** from **April 20, 2026** to **July 12, 2026**, I had the opportunity to learn, develop, and apply the knowledge acquired during my university studies in a real-world working environment.
+Throughout my internship at **Bootcamp First Cloud AI Journey** from **20/04/2026** to **12/07/2026**, I have had the opportunity to learn, practice, and apply professional knowledge to a real working environment. As a reserved person, I usually focus on observing, listening deeply, and spending most of my time doing self-research and optimizing technical solutions.
 
-During the internship, I participated in **project development, technical workshops, research activities, and self-directed learning**, which significantly improved my skills in **programming, system analysis, technical documentation, communication, teamwork, and problem-solving**.
+During the internship, I participated in researching and building the project **Minecraft Server Security System on AWS**. The project focused on deploying Minecraft servers on Amazon EC2, designing security architectures, detecting intrusions with Amazon GuardDuty, automatically responding with AWS Lambda, sending alerts via Amazon SNS, and backing up data with AWS Backup.
 
-Regarding my work ethic, I consistently strived to complete assigned tasks responsibly, complied with the organization's regulations, proactively learned new technologies, and actively communicated with mentors and teammates to improve work efficiency.
+Through the project, I leveraged my strengths in self-study and independent deep-diving to improve important skills such as: **researching AWS services, cloud architecture design, security analysis, technical system documentation, and testing**.
 
-Throughout the internship, I contributed to the design and implementation of the **Minecraft Server Security Platform on AWS**, focusing on deploying a Minecraft server on Amazon EC2, designing a secure cloud architecture, detecting security threats with Amazon GuardDuty, automating incident response using AWS Lambda, sending notifications through Amazon SNS, and protecting server data with AWS Backup.
+Regarding work ethic, I always comply with regulations, work independently and efficiently, fulfill assigned tasks well, and choose appropriate times to communicate briefly and directly with my mentor to ensure progress.
 
-Through this project, I strengthened my knowledge of **AWS services, cloud architecture design, cybersecurity, technical documentation, system deployment, testing, report writing, and technical presentation skills**.
+To reflect objectively on the internship process, I would like to self-evaluate based on the criteria below:
 
-To objectively reflect on my internship performance, I conducted the following self-assessment based on several evaluation criteria.
-
-| No. | Evaluation Criteria | Description | Excellent | Good | Average |
-| --- | --- | --- | :---: | :---: | :---: |
-| 1 | **Technical Knowledge and Skills** | Understanding of the field, practical application of knowledge, technical proficiency, quality of work | ✅ | ☐ | ☐ |
-| 2 | **Learning Ability** | Ability to acquire new knowledge and learn quickly | ✅ | ☐ | ☐ |
-| 3 | **Proactiveness** | Ability to work independently and take initiative without constant supervision | ✅ | ☐ | ☐ |
-| 4 | **Responsibility** | Completing assigned tasks on time while maintaining quality | ✅ | ☐ | ☐ |
-| 5 | **Discipline** | Compliance with working hours, company regulations, and workflows | ☐ | ✅ | ☐ |
-| 6 | **Self-Improvement** | Willingness to receive feedback and continuously improve | ✅ | ☐ | ☐ |
-| 7 | **Communication Skills** | Ability to communicate ideas and report work clearly | ✅ | ☐ | ☐ |
-| 8 | **Teamwork** | Collaboration with teammates and contribution to group activities | ✅ | ☐ | ☐ |
-| 9 | **Professionalism** | Respect toward colleagues, mentors, and the working environment | ✅ | ☐ | ☐ |
-| 10 | **Problem-Solving Skills** | Ability to identify problems, propose solutions, and think creatively | ✅ | ☐ | ☐ |
-| 11 | **Contribution to the Project/Organization** | Work effectiveness, contributions, and recognition from the team | ✅ | ☐ | ☐ |
-| 12 | **Overall Performance** | Overall evaluation of the internship | ✅ | ☐ | ☐ |
+| No. | Criteria | Description | Good | Fair | Average |
+| --- | --- | --- | --- | --- | --- |
+| 1 | **Professional knowledge and skills** | Industry understanding, system design, quality of work | ✅ | ☐ | ☐ |
+| 2 | **Learning ability** | Self-researching documentation, quickly absorbing new technologies | ✅ | ☐ | ☐ |
+| 3 | **Proactivity** | Deep-diving into errors, resolving technical issues independently | ✅ | ☐ | ☐ |
+| 4 | **Sense of responsibility** | Focusing on completing tasks on time | ✅ | ☐ | ☐ |
+| 5 | **Discipline** | Adhering to working hours, regulations, and work processes | ✅ | ☐ | ☐ |
+| 6 | **Desire for advancement** | Listening to feedback and silently improving oneself | ✅ | ☐ | ☐ |
+| 7 | **Communication** | Brief, clear work reporting, focusing on data | ☐ | ✅ | ☐ |
+| 8 | **Teamwork** | Good coordination when tasks are split clearly and independently | ☐ | ✅ | ☐ |
+| 9 | **Professional behavior** | Respecting personal workspace and colleagues | ✅ | ☐ | ☐ |
+| 10 | **Problem-solving mindset** | Preferring self-analysis of Root Cause | ✅ | ☐ | ☐ |
+| 11 | **Contribution to project/organization** | Ensuring system stability, writing thorough documentation | ✅ | ☐ | ☐ |
+| 12 | **Overall** | General evaluation of the entire internship process | ✅ | ☐ | ☐ |
 
 ---
 
-## Areas for Improvement
+### Areas for Improvement
 
-- Improve self-discipline by consistently following organizational regulations and professional working standards.
-- Strengthen analytical thinking and enhance problem-solving skills, particularly when evaluating multiple solution approaches.
-- Continue improving communication skills, including presenting ideas, providing constructive feedback, and handling workplace situations effectively.
-- Develop better personal planning and time management to improve productivity and task prioritization.
-- Continue expanding technical knowledge in AWS, Cloud Security, Infrastructure Automation, and modern cloud-native technologies.
+* Need to be more open in sharing progress or technical roadblocks early with the team, instead of the tendency to look for solutions alone for too long.
+* Practice presenting ideas in front of crowds more smoothly, reducing hesitation during direct discussions in short standalone meetings (Standup meetings).
+* Be more proactive in social interactions with surrounding colleagues instead of focusing entirely on the computer screen.
+* Enhance mindset in large system design, Cloud Security, and cost optimization.
 
 ---
 
-## Conclusion
+### Conclusion
 
-Overall, the internship provided me with valuable opportunities to grow both technically and professionally. I gained hands-on experience in developing a cloud security project from architecture design to implementation while learning how to work within a structured engineering process.
+Overall, the internship has helped me better understand my personal strengths when working in the Cloud industry: patience, high concentration, and logical thinking during system analysis. I have learned to harmonize my personality with the organization's general working rhythm, knowing how to choose effective communication methods to contribute to the project in the best way.
 
-The internship also helped me better understand the importance of responsibility, initiative, continuous learning, communication, and teamwork in a professional environment.
-
-The knowledge and experience I gained during this internship will serve as a strong foundation for my future career. I will continue improving my technical expertise, professional skills, and practical experience to become a more capable Cloud and Cybersecurity Engineer.
+These practical experiences will be valuable assets for me to continue perfecting my professional skills and become more confident on my future career path.

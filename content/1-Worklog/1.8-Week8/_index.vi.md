@@ -7,20 +7,20 @@ pre: " <b> 1.8. </b> "
 ---
 
 ### Mục tiêu tuần 8:
+* Thực hành môi trường lập trình đám mây AWS Cloud9 và công cụ dòng lệnh AWS CLI.
+* Triển khai tự động hóa hạ tầng (Lambda, Tags), bảo mật động (ABAC) và hệ thống giám sát nâng cao (CloudWatch, Grafana).
 
-* Làm việc với AWS Cloud9 như môi trường phát triển trên cloud.
-* Thực hành chỉnh sửa file và thao tác dòng lệnh trong IDE.
-* Sử dụng AWS CLI một cách nhất quán từ môi trường cloud.
+### Công việc & Tiến độ:
 
-### Các công việc cần triển khai trong tuần này:
+| Thứ | Công việc | Ngày chạy | Công cụ | Kết quả đạt được |
+| :---: | :--- | :---: | :--- | :--- |
+| **2** | Nghiên cứu kiến trúc Cloud9 & viết kịch bản tự động hóa. | 08/06/2026 | AWS Cloud9, AWS Lambda | Khởi tạo Cloud9 IDE; dùng Lambda tự động hóa chuỗi khởi tạo VPC, Security Group, EC2 và đẩy Webhook thông báo về Slack. |
+| **3** | Khám phá giao diện IDE & quản lý tài nguyên theo cụm logic. | 09/06/2026 | AWS Resource Groups, Tag Editor | Thực hành thao tác terminal trên Cloud9. Thiết lập quy tắc gắn thẻ (Tags) để đồng bộ và phân cụm quản lý tài nguyên. |
+| **4** | Thao tác file trên IDE & nâng cấp bảo mật phân quyền động. | 10/06/2026 | AWS IAM, Cloud9 Terminal | Chỉnh sửa, điều hướng file trên Cloud; kết hợp IAM Policies và Resource Tags để phân quyền dựa trên thuộc tính (ABAC). |
+| **5** | Cấu hình AWS CLI & tham gia Workshop CloudWatch nâng cao. | 11/06/2026 | AWS CLI, CloudWatch Agent | Kiểm tra credentials/region trên Cloud9; tự động hóa cài đặt CloudWatch Agent lên máy chủ để thu thập log và cảnh báo đa lớp. |
+| **6** | Dọn dẹp hệ thống & tích hợp giải pháp giám sát trực quan. | 12/06/2026 | Amazon Managed Grafana, CloudWatch | Tổng hợp lợi ích của Cloud IDE và dọn dẹp môi trường. Kết nối metric từ CloudWatch vào Grafana, xây dựng Dashboard theo dõi thời gian thực. |
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2 | - Tìm hiểu Cloud9 và kiến trúc môi trường<br>- Xác định runtime và tích hợp AWS | 05/06/2026 | 05/06/2026 | Tài liệu AWS Cloud9 |
-| 3 | - Tạo môi trường Cloud9<br>- Khám phá giao diện IDE<br>- Cài công cụ CLI hữu ích | 06/06/2026 | 06/06/2026 | AWS Cloud9 console |
-| 4 | - Tạo và chỉnh sửa file trong Cloud9<br>- Thực hành terminal và điều hướng file | 07/06/2026 | 07/06/2026 | Hướng dẫn Cloud9 |
-| 5 | - Cấu hình AWS CLI trong Cloud9<br>- Chạy lệnh AWS cơ bản<br>- Kiểm tra credentials và region | 08/06/2026 | 09/06/2026 | Tài liệu AWS CLI |
-| 6 | - Dọn dẹp môi trường Cloud9<br>- Tổng hợp lợi ích của IDE cloud | 09/06/2026 | 09/06/2026 | AWS best practices |
+---
 
 ### Kết quả đạt được tuần 8:
 

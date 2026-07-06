@@ -1,31 +1,30 @@
 ---
-title: "Week 7 Worklog"
+title: "Worklog Week 7"
 date: 2026-05-29
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-### Week 7 Objectives
+### Week 7 Objectives:
+* Understand and configure IAM Roles for EC2 to replace long-term access keys.
+* Practice system migration solutions, disaster recovery (Disaster Recovery), and cost management (FinOps).
 
-* Understand IAM roles for EC2 and why they are safer than access keys.
-* Practice instance profile assignment and temporary credentials.
-* Access AWS resources from EC2 without hardcoded credentials.
+### Tasks & Progress:
 
-### Tasks to be carried out this week:
+| Day | Task | Date | Tools | Results Achieved |
+| :---: | :--- | :---: | :--- | :--- |
+| **Mon** | Research Access Key risks & virtual machine (VM) migration. | 01/06/2026 | AWS VM Import/Export, AWS CLI | Clearly distinguished the risks of static keys and the benefits of Roles. Successfully converted a local virtual machine into an AMI to run on EC2. |
+| **Tue** | Create IAM Role for EC2 & migrate database. | 02/06/2026 | AWS DMS, AWS SCT, SQL Server | Attached S3 access permissions and configured trust policy for the Role. Used SCT and DMS to convert table structures and migrate data to RDS. |
+| **Wed** | Attach Role to EC2 & set up continuous backup. | 03/06/2026 | AWS Elastic DR, Instance Metadata | Successfully verified temporary credentials via instance metadata. The system automatically configured disaster recovery to another Region. |
+| **Thu** | Test S3 read/write permissions & create cost optimization plan. | 04/06/2026 | AWS Cost Explorer, AWS Billing | EC2 accessed S3 smoothly without using hardcoded keys. Proposed Savings Plans and Reserved Instances packages to reduce server costs. |
+| **Fri** | Aggregate IAM best practices & analyze raw billing data. | 05/06/2026 | AWS Glue, Amazon Athena, SQL | Mastered the safe cleanup and management process for Roles. Used Glue and Athena to create a serverless pipeline to write SQL for separating costs by tags. |
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | --- | ---------- | --------------- | ----------------------------------------- |
-| 2 | - Review risks of long-term access keys<br>- Compare IAM user access keys vs instance roles | 29/05/2026 | 29/05/2026 | AWS IAM documentation |
-| 3 | - Create an IAM role for EC2<br>- Attach S3 access permissions<br>- Review trust policy | 30/05/2026 | 30/05/2026 | AWS IAM console |
-| 4 | - Attach the role to an EC2 instance<br>- Verify temporary credentials metadata | 31/05/2026 | 31/05/2026 | EC2 instance metadata docs |
-| 5 | - Access S3 from EC2 using the role<br>- Test read/write operations<br>- Verify no static keys exist in code | 01/06/2026 | 02/06/2026 | AWS SDK examples |
-| 6 | - Review cleanup steps for roles and instance profiles<br>- Document role best practices | 02/06/2026 | 02/06/2026 | AWS IAM best practices |
+---
 
-### Week 7 Achievements
-
-* Learned why IAM roles are preferred over long-term access keys for EC2.
-* Created an IAM role and attached it to an EC2 instance.
-* Successfully accessed AWS resources from EC2 without hardcoded credentials.
-* Verified temporary credential behavior using instance metadata.
-* Documented role-based access best practices.
+### Core Achievements:
+* Clearly understood why IAM roles should be used instead of long-term access keys.
+* Successfully created and attached IAM roles to EC2.
+* Accessed AWS resources from EC2 without using hardcoded credentials.
+* Verified temporary credential behavior via instance metadata.
+* Documented best practices when using roles for EC2.

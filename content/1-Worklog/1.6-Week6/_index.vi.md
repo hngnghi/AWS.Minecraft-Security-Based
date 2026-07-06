@@ -7,20 +7,20 @@ pre: " <b> 1.6. </b> "
 ---
 
 ### Mục tiêu tuần 6:
+* Tìm hiểu về máy chủ EC2, lưu trữ EBS và AMI.
+* Thực hành CloudFront, Lambda@Edge và Microsoft AD.
 
-* Thành thạo vòng đời EC2, EBS và AMI.
-* Triển khai cả Linux và Windows, thực hành phục hồi truy cập.
-* Hiểu các chính sách IAM giúp kiểm soát chi phí EC2.
+### Công việc & Tiến độ:
 
-### Các công việc cần triển khai trong tuần này:
+| Thứ | Công việc | Ngày chạy | Công cụ | Kết quả đạt được |
+| :---: | :--- | :---: | :--- | :--- |
+| **2** | Nghiên cứu instance types, EBS & cấu hình mạng phân phối nội dung. | 25/05/2026 | CloudFront, Amazon S3 | Phân biệt các loại volume phù hợp từng workload. Khởi tạo CloudFront Distribution, giảm đáng kể độ trễ tải trang tĩnh từ S3. |
+| **3** | Khởi chạy máy chủ EC2 & nâng cấp giải pháp điện toán biên. | 26/05/2026 | EC2 (Linux/Windows), Lambda@Edge | Chạy máy chủ Linux/Windows; viết và tích hợp mã Lambda@Edge (Node.js/Python) xử lý request tại biên mạng để giảm tải cho máy chủ gốc. |
+| **4** | Quản lý vòng đời máy chủ & triển khai Windows Server. | 27/05/2026 | EC2 lifecycle, AMI, RDP | Thay đổi instance type, tạo EBS snapshot/custom AMI. Kết nối thành công Windows Server qua RDP; hiểu quy trình chạy ứng dụng ASP.NET Core MVC. |
+| **5** | Thực hành phục hồi quyền máy chủ & thiết lập dịch vụ thư mục. | 28/05/2026 | AWS Managed Microsoft AD | Phục hồi quyền truy cập Linux/Windows và cấu hình RDP. Khởi tạo thành công miền Active Directory, quản lý định danh tập trung cho máy chủ. |
+| **6** | Deploy ứng dụng Web & tổng hợp báo cáo kiểm soát chi phí. | 29/05/2026 | IAM, AWS Billing | Triển khai thành công ứng dụng web (LAMP/Node.js) trên Linux. Hiểu rõ các chính sách IAM giới hạn loại instance family, type và EBS để tối ưu chi phí. |
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2 | - Tìm hiểu instance types và EBS<br>- So sánh loại volume phù hợp từng workload | 22/05/2026 | 22/05/2026 | Tài liệu AWS EC2 |
-| 3 | - Launch EC2 Linux<br>- Launch EC2 Windows<br>- So sánh bootstrap options | 23/05/2026 | 23/05/2026 | AWS EC2 console |
-| 4 | - Thay đổi instance type<br>- Tạo EBS snapshot<br>- Tạo custom AMI | 24/05/2026 | 24/05/2026 | Tài liệu EC2 lifecycle |
-| 5 | - Thực hành phục hồi quyền Linux và Windows<br>- Cấu hình phục hồi RDP<br>- Tìm hiểu EBS Archive | 25/05/2026 | 26/05/2026 | AWS recovery guides |
-| 6 | - Deploy LAMP trên Amazon Linux<br>- Deploy Node.js application<br>- Xem lại các control chi phí EC2 qua IAM | 26/05/2026 | 26/05/2026 | AWS deployment tutorials |
+---
 
 ### Kết quả đạt được tuần 6:
 

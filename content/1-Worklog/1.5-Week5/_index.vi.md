@@ -7,25 +7,24 @@ pre: " <b> 1.5. </b> "
 ---
 
 ### Mục tiêu tuần 5:
+* Xây dựng và bảo mật hạ tầng mạng VPC hoàn chỉnh.
+* Quản trị hệ thống bằng dòng lệnh, tối ưu cơ sở dữ liệu và kết nối mạng nâng cao.
 
-* Xây dựng môi trường VPC hoàn chỉnh trên AWS.
-* Học subnetting, route table, IGW, NAT Gateway, Security Group và NACL.
-* Thực hành kiểm tra kết nối và giám sát mạng.
+### Công việc & Tiến độ:
 
-### Các công việc cần triển khai trong tuần này:
+| Thứ | Công việc | Ngày chạy | Công cụ | Kết quả đạt được |
+| :---: | :--- | :---: | :--- | :--- |
+| **2** | Học VPC, bảo mật mạng & cài đặt dòng lệnh quản trị. | 18/05/2026 | AWS CLI, Amazon VPC | Cấu hình thành công AWS CLI trên máy cá nhân; viết script tự động hóa khởi tạo/xóa nhanh tài nguyên. |
+| **3** | Phân chia lớp mạng Public/Private & thiết kế CSDL NoSQL. | 19/05/2026 | VPC Console, DynamoDB | Thiết lập cụm VPC gắn Internet Gateway; tạo bảng DynamoDB chuẩn cấu trúc Partition Key và Sort Key để truy vấn. |
+| **4** | Cấu hình định tuyến Route Table & triển khai Bộ nhớ đệm. | 20/05/2026 | NAT Gateway, ElastiCache (Redis) | Cấu hình NAT Gateway cho mạng Private; khởi tạo thành công cụm Redis giúp tăng tốc độ phản hồi dữ liệu xuống mức micro-giây. |
+| **5** | Thiết lập Security Group, NACL & xem Workshop mạng. | 21/05/2026 | Security Group, NACL, VPC Flow Logs | Kích hoạt VPC Flow Logs và Reachability Analyzer để kiểm tra mạng; trực quan hóa toàn bộ kiến trúc mạng phức tạp. |
+| **6** | Tạo EC2 kiểm tra kết nối & làm bài thực hành mạng nâng cao. | 22/05/2026 | Systems Manager, VPC Peering, CLI | Kết nối EC2 qua Session Manager (không cần SSH); cấu hình thành công kết nối liên vùng; chạy script tự động dọn sạch tài nguyên. |
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2 | - Tìm hiểu VPC, subnet, route table, IGW, NAT<br>- Học Security Group và NACL | 15/05/2026 | 15/05/2026 | Tài liệu AWS VPC |
-| 3 | - Tạo VPC<br>- Tạo public và private subnet<br>- Gắn Internet Gateway | 16/05/2026 | 16/05/2026 | AWS VPC console |
-| 4 | - Cấu hình route table cho public và private<br>- Tạo và kiểm tra NAT Gateway | 17/05/2026 | 17/05/2026 | AWS networking guides |
-| 5 | - Tạo Security Group và NACL<br>- Bật VPC Flow Logs<br>- Chạy Reachability Analyzer | 18/05/2026 | 19/05/2026 | AWS VPC security docs |
-| 6 | - Launch EC2 trong VPC<br>- Kết nối bằng Session Manager<br>- Xem CloudWatch metrics và alarms | 19/05/2026 | 19/05/2026 | AWS Systems Manager |
+---
 
-### Kết quả đạt được tuần 5:
+### Kết quả cốt lõi:
+* Triển khai hệ thống mạng **VPC** gồm Public/Private Subnet, NAT Gateway, NACL, SG và kiểm tra đường đi luồng dữ liệu bằng **Reachability Analyzer**.
+* Sử dụng **AWS CLI** để chạy script tự động hóa; thiết kế bảng **DynamoDB** tối ưu cho phân tích dữ liệu và tích hợp bộ nhớ đệm.
+* Kết nối máy chủ EC2 an toàn qua **Session Manager** và dọn dẹp 100% tài nguyên thừa tự động bằng script CLI để tránh mất tiền.
 
-* Xây dựng được VPC có public subnet và private subnet.
-* Cấu hình đúng routing, NAT, SG và NACL.
-* Kiểm tra đường đi mạng bằng Reachability Analyzer.
-* Kết nối EC2 không cần SSH bằng Session Manager.
-* Cấu hình CloudWatch giám sát cơ bản cho mạng.
+---
