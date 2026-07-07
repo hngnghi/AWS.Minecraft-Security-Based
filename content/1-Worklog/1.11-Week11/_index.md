@@ -1,31 +1,28 @@
 ---
-title: "Week 11 Worklog"
+title: "Worklog Tuần 11"
 date: 2026-06-26
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-### Week 11 Objectives
+### Objectives Week 11:
+* Cooperate in researching, analyzing documents, and sketching advanced cloud security solutions for the graduation project.
+* Support deploying foundational infrastructure (VPC, EC2) and configuring the security monitoring subsystem (GuardDuty, Lambda).
 
-* Design the AWS architecture for the graduation project: AWS + Minecraft + Cyber Security.
-* Deploy the foundational infrastructure: VPC, EC2, GuardDuty, Lambda, Backup, NLB, and Global Accelerator.
-* Deliver a runnable Minecraft server with basic security monitoring.
+### Tasks Deployment and Actual Progress:
 
-### Tasks to be carried out this week:
+| Day | Planned Task | Start Date | Tools | Actual Result Achieved |
+| :---: | :--- | :---: | :--- | :--- |
+| **2** | Support researching documents & participate in sketching the overall architecture. | 26/06/2026 | Architecture design notes, Draw.io | Collected specifications of cloud infrastructure components and participated in sketching the overall architecture diagram for the Minecraft Server Security System on AWS project. |
+| **3** | Cooperate in setting up the foundational secure network infrastructure. | 27/06/2026 | AWS VPC, Security Group | Set up foundational network parameters for the `Minecraft-Security-Lab` subsystem (VPC, Subnet, Route Table) and reviewed port closing/opening rules in the Security Group. |
+| **4** | Support installing & configuring the server environment. | 28/06/2026 | Amazon EC2, Systems Manager | Launched Linux server on Amazon EC2, performed installation, configuration, and secure operation of Minecraft Server under a restricted system user via Session Manager. |
+| **5** | Support configuring & analyzing alerts from the intrusion detection system. | 29/06/2026 | Amazon GuardDuty, EventBridge | Activated and monitored the Amazon GuardDuty system; analyzed and classified security alert categories (Findings) obtained from the test environment. |
+| **6** | Participate in programming the response function & configuring the automation flow. | 30/06/2026 | AWS Lambda, Amazon EventBridge | Cooperated in writing and debugging the processing script for the AWS Lambda function (`Minecraft-Automated-Block-IP`) and tested the automated response flow to block malicious IP addresses. |
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | --- | ---------- | --------------- | ----------------------------------------- |
-| 2 | - Review project goals and cost estimate<br>- Draw the architecture diagram<br>- Define required AWS services | 26/06/2026 | 26/06/2026 | Architecture design notes |
-| 3 | - Create VPC `Minecraft-Security-Lab`<br>- Create subnets and route tables<br>- Create security groups that allow only port 25565 | 27/06/2026 | 27/06/2026 | AWS VPC documentation |
-| 4 | - Launch an Ubuntu EC2 instance<br>- Install Minecraft server via Session Manager<br>- Run Minecraft as the `minecraft` user | 28/06/2026 | 28/06/2026 | AWS Systems Manager docs |
-| 5 | - Enable GuardDuty<br>- Review findings, settings, and alert concepts<br>- Document threat detection logic | 29/06/2026 | 30/06/2026 | AWS GuardDuty guides |
-| 6 | - Create Lambda `Minecraft-Automated-Block-IP`<br>- Grant EC2 permissions<br>- Create an EventBridge rule from GuardDuty to Lambda | 30/06/2026 | 30/06/2026 | AWS Lambda and EventBridge docs |
+---
 
-### Week 11 Achievements
-
-* Designed a clear AWS architecture for the graduation project.
-* Deployed VPC, EC2, and Minecraft server with security-first settings.
-* Enabled GuardDuty and connected it to an automation Lambda function.
-* Created an hourly backup plan for EC2.
-* Made the Minecraft server reachable via Global Accelerator.
+### Results Achieved Week 11:
+* Completed the supporting role in analyzing documents and clarifying the cloud security architecture diagram for the project.
+* Cooperated in successfully deploying the isolated network environment and configuring services on the secure EC2 server.
+* Mastered the operational process, error classification of GuardDuty, and the automated trigger mechanism via EventBridge.

@@ -7,26 +7,23 @@ pre: " <b> 1.12. </b> "
 ---
 
 ### Mục tiêu tuần 12:
+* Phối hợp hoàn thiện quy trình tự động hóa vận hành, tối ưu hóa kịch bản quản trị máy chủ an toàn và dọn dẹp hệ thống thử nghiệm.
+* Nghiệm thu toàn diện chu trình phát hiện tấn công, hoàn thiện tài liệu kỹ thuật song ngữ và báo cáo kết quả thực tập tốt nghiệp.
 
-* Hoàn thiện tự động hóa cảnh báo và phản ứng bảo mật cho dự án tốt nghiệp.
-* Hoàn thành startup và shutdown script an toàn cho Minecraft.
-* Chạy demo SOAR, dọn dẹp tài nguyên AWS và hoàn thiện tài liệu báo cáo.
+### Các công việc triển khai và Tiến độ thực tế:
 
-### Các công việc cần triển khai trong tuần này:
+| Thứ | Công việc | Ngày chạy | Công cụ | Kết quả đạt được |
+| :---: | :--- | :---: | :--- | :--- |
+| **2** | Phối hợp thiết lập và phân quyền hạ tầng cảnh báo bảo mật. | 03/07/2026 | Amazon SNS, AWS Lambda | Cấu hình thành công SNS Topic (`Minecraft-Attack-Alerts`), xác thực danh sách email subscription và cấp quyền cho Lambda thực hiện publish thông báo cảnh báo. |
+| **3** | Cập nhật cấu hình mã nguồn và kiểm thử định dạng thông điệp. | 04/07/2026 | AWS Lambda, CloudWatch Logs | Tích hợp ARN của SNS vào mã nguồn Lambda, tiến hành tái triển khai hàm và chuẩn hóa cấu trúc dữ liệu hiển thị của thông báo gửi về email. |
+| **4** | Hỗ trợ xây dựng kịch bản khởi động máy chủ an toàn trên Linux. | 05/07/2026 | Linux Screen, Amazon EC2 | Tham gia viết và kiểm thử Startup Script cho Minecraft Server, theo dõi trạng thái phiên làm việc (`screen -ls`) và tệp log hệ thống sau khi kích hoạt chế độ restart. |
+| **5** | Hỗ trợ xây dựng kịch bản đóng máy chủ và bảo toàn dữ liệu. | 06/07/2026 | Linux Bash Script, Minecraft Server | Tham gia hoàn thiện Shutdown Script, thực hiện kiểm thử tính năng lưu trữ bản đồ thế giới (world save) tự động và cấu hình quy trình dừng dịch vụ an toàn. |
+| **6** | Giả lập tấn công nghiệm thu chu trình SOAR và giải thể tài nguyên. | 07/07/2026 | Amazon GuardDuty, AWS Billing | Kích hoạt sample findings để kiểm tra luồng tự động cô lập IP độc hại; thực hiện dọn dẹp toàn bộ tài nguyên theo thứ tự phụ thuộc và đối soát ví tiền an toàn 100%. |
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2 | - Tạo SNS topic `Minecraft-Attack-Alerts`<br>- Xác thực email subscription<br>- Cấp quyền Lambda publish SNS | 03/07/2026 | 03/07/2026 | Tài liệu AWS SNS |
-| 3 | - Cập nhật ARN SNS vào code Lambda<br>- Deploy lại hàm Lambda<br>- Kiểm tra định dạng thông báo gửi đi | 04/07/2026 | 04/07/2026 | Ghi chú deploy Lambda |
-| 4 | - Viết startup script an toàn cho Minecraft<br>- Kiểm tra `screen -ls` và log<br>- Test hành vi restart | 05/07/2026 | 05/07/2026 | Ghi chú vận hành Minecraft |
-| 5 | - Viết shutdown script an toàn<br>- Kiểm tra lưu world<br>- Ghi nhận các bước dừng an toàn | 06/07/2026 | 07/07/2026 | Linux service best practices |
-| 6 | - Chạy GuardDuty sample findings<br>- Kiểm tra CloudWatch Logs và email cảnh báo<br>- Thực hiện dọn dẹp theo đúng thứ tự<br>- Kiểm tra AWS Billing Dashboard | 07/07/2026 | 10/07/2026 | Project cleanup checklist |
+---
 
 ### Kết quả đạt được tuần 12:
-
-* Hoàn thành luồng cảnh báo: GuardDuty finding, Lambda tự động hóa và SNS email notification.
-* Kiểm tra startup và shutdown script cho Minecraft server.
-* Demo thành công chu trình SOAR: phát hiện tấn công, chặn IP và gửi cảnh báo.
-* Dọn dẹp tài nguyên AWS theo đúng thứ tự dependency.
-* Xác nhận không còn chi phí bất ngờ trên AWS Billing.
-* Hoàn thiện tài liệu Markdown song ngữ và báo cáo cuối kỳ.
+* Hỗ trợ tối ưu hóa vận hành hệ thống thông qua việc hoàn thành các kịch bản khởi động và đóng máy chủ an toàn, đảm bảo toàn vẹn dữ liệu cho Minecraft Server trên Linux.
+* Nghiệm thu thành công chu trình SOAR bằng cách kích hoạt mẫu tấn công giả lập trên GuardDuty để kiểm thử toàn diện luồng phát hiện, cô lập IP và gửi cảnh báo tự động.
+* Hoàn thiện hệ thống tài liệu kỹ thuật bằng file Markdown song ngữ và hoàn thành báo cáo kết quả thực tập tốt nghiệp đúng tiến độ.
+* Giải thể và dọn dẹp sạch sẽ toàn bộ tài nguyên thử nghiệm trên AWS Console, xác nhận không phát sinh chi phí ngoài ý muốn trên AWS Billing Dashboard.
