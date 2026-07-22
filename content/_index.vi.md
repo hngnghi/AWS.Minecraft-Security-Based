@@ -22,7 +22,7 @@ chapter: false
 ### Thông tin chương trình thực tập:
 * **Công ty tiếp nhận:** Bootcamp First Cloud AI Journey
 * **Vị trí Thực tập:** Workforce Bootcamp - First Cloud AI Journey
-* **Thời gian Thực tập:** 20/04/2026 — 12/07/2026
+* **Thời gian Thực tập:** 20/04/2026 — 31/07/2026
 
 ---
 

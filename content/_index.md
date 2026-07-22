@@ -22,7 +22,7 @@ chapter: false
 ### Internship Program Information:
 * **Receiving Company:** Bootcamp First Cloud AI Journey
 * **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
-* **Internship Period:** 20/04/2026 — 12/07/2026
+* **Internship Period:** 20/04/2026 — 31/07/2026
 
 ---
 
