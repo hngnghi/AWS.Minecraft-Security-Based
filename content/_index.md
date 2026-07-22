@@ -20,7 +20,7 @@ chapter: false
 * **Class Code:** 22DTHG3
 
 ### Internship Program Information:
-* **Receiving Company:** Bootcamp First Cloud AI Journey
+* **Receiving Company:** Amazon Web Services Vietnam Co., Ltd.
 * **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 * **Internship Period:** 20/04/2026 — 31/07/2026
 

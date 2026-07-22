@@ -20,7 +20,7 @@ chapter: false
 * **Mã lớp:** 22DTHG3
 
 ### Thông tin chương trình thực tập:
-* **Công ty tiếp nhận:** Bootcamp First Cloud AI Journey
+* **Công ty tiếp nhận:** Công ty TNHH Amazon Web Services Việt Nam
 * **Vị trí Thực tập:** Workforce Bootcamp - First Cloud AI Journey
 * **Thời gian Thực tập:** 20/04/2026 — 31/07/2026
 
